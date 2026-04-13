@@ -1,4 +1,4 @@
-baseURL = 'https://bigtrust.github.io/investment-blog/'
+baseURL = 'https://daeshinlee.github.io/investment-blog/'
 languageCode = 'ko-kr'
 title = '마켓뷰 - US Stock Market News'
 theme = 'PaperMod'
