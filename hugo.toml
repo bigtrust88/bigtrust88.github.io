@@ -113,7 +113,7 @@ defaultContentLanguageInSubdir = false
   # Google AdSense Publisher ID (필수: AdSense 계정의 publisher ID로 변경)
   # 형식: ca-pub-xxxxxxxxxxxxxxxx
   [params.adsense]
-    publisher_id = "ca-pub-XXXXXXXXXXXXXXXX"  # AdSense Publisher ID로 변경 필요
+    publisher_id = "ca-pub-3811219422484638"  # AdSense Publisher ID로 변경 필요
 
   # SEO 설정
   [params.metadata]
