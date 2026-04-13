@@ -1,0 +1,132 @@
+baseURL = 'https://investment-market.com/'
+languageCode = 'ko-kr'
+title = '마켓뷰 - US Stock Market News'
+theme = 'PaperMod'
+paginate = 10
+enableRobotsTXT = true
+enableEmoji = true
+
+# 구글 애널리틱스 (필요시 설정)
+# googleAnalytics = 'G-XXXXXXXXXXXX'
+
+# 다국어 설정
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = false
+
+[outputs]
+  home = ['HTML', 'JSON', 'RSS']
+
+# 마크다운 렌더링 설정
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+
+# 언어별 설정 (한국어 기본)
+[languages]
+  [languages.ko]
+    languageName = '한국어'
+    weight = 1
+    contentDir = 'content/posts'
+    title = '마켓뷰 - 미국주식 시장뉴스'
+
+    [languages.ko.menu]
+      [[languages.ko.menu.main]]
+        name = 'US Market'
+        url = '/categories/us-market/'
+        weight = 1
+      [[languages.ko.menu.main]]
+        name = 'KR Market'
+        url = '/categories/kr-market/'
+        weight = 2
+      [[languages.ko.menu.main]]
+        name = 'Archive'
+        url = '/archives/'
+        weight = 3
+
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    title = 'MarketView - US Stock Market News'
+    contentDir = 'content/posts-en'
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = 'US Market'
+        url = '/en/categories/us-market/'
+        weight = 1
+      [[languages.en.menu.main]]
+        name = 'KR Market'
+        url = '/en/categories/kr-market/'
+        weight = 2
+      [[languages.en.menu.main]]
+        name = 'Archive'
+        url = '/en/archives/'
+        weight = 3
+
+# PaperMod 테마 설정
+[params]
+  # 블로그 로고 및 아이콘
+  homeInfoParams = [
+    "마켓뷰 - 중립적 투자 시장 정보 채널",
+    "한국과 미국 주식시장의 뉴스, 이슈, 트렌드를 매일 전합니다. 투자 조언이 아닌 정보 전달에 집중합니다."
+  ]
+
+  # Footer 설정
+  author = "MarketView Team"
+
+  # 댓글 설정 (Disqus 또는 기타 - 선택사항)
+  # comments = true
+
+  # 검색 기능
+  search_enabled = true
+
+  # 테마 색상 및 스타일
+  env = "production"
+
+  # 다음 옵션들은 PaperMod 테마에서 사용됨
+  [params.profileMode]
+    enabled = true
+    title = "마켓뷰"
+    subtitle = "US & KR Stock Market News"
+    imageUrl = "/logo.png"  # 로고 이미지 경로 (static/ 폴더에 저장)
+    imageAlt = "MarketView Logo"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+  # 테마 설정
+  [params.assets]
+    favicon = "/favicon.ico"
+
+  # Google AdSense Publisher ID (필수: AdSense 계정의 publisher ID로 변경)
+  # 형식: ca-pub-xxxxxxxxxxxxxxxx
+  [params.adsense]
+    publisher_id = "ca-pub-XXXXXXXXXXXXXXXX"  # AdSense Publisher ID로 변경 필요
+
+  # SEO 설정
+  [params.metadata]
+    keywords = "미국주식,US주식,나스닥,S&P500,미국증시,주식시장,투자뉴스,시장분석"
+    og_image = "/og-image.png"
+
+# 사이트맵 설정
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# 분류 설정 (Category 및 Tag)
+[taxonomies]
+  category = "categories"
+  tag = "tags"
