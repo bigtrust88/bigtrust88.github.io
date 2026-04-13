@@ -1,19 +1,12 @@
----
-title: "4월 11일 주말 시황 정리 - 연준 금리 결정 후 혼조장 마감"
-date: 2026-04-13T09:00:00Z
-draft: false
-author: "MarketView"
-description: "연준 기준금리 유지 결정으로 시장 변동성 확대. 빅테크는 강세, 광범위 시장은 약세 마감"
-categories:
-  - "US Market"
-  - "Market Analysis"
-tags:
-  - "미국주식"
-  - "나스닥"
-  - "S&P500"
-  - "연준"
-  - "시황분석"
----
++++
+title = "4월 11일 주말 시황 정리 - 연준 금리 결정 후 혼조장 마감"
+date = 2026-04-13T09:00:00Z
+draft = false
+author = "MarketView"
+description = "연준 기준금리 유지 결정으로 시장 변동성 확대. 빅테크는 강세, 광범위 시장은 약세 마감"
+categories = ["US Market", "Market Analysis"]
+tags = ["미국주식", "나스닥", "S&P500", "연준", "시황분석"]
++++
 
 ## 📊 주말 시황 요약
 

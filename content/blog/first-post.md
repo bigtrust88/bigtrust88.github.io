@@ -1,17 +1,12 @@
----
-title: "2026년 4월 13일 미국증시 오늘의 시황"
-date: 2026-04-13T08:30:00Z
-draft: false
-author: "MarketView"
-description: "연준의 금리 결정 이후 나스닥과 S&P500의 반응을 분석합니다."
-categories:
-  - "US Market"
-tags:
-  - "미국주식"
-  - "나스닥"
-  - "S&P500"
-  - "시장분석"
----
++++
+title = "2026년 4월 13일 미국증시 오늘의 시황"
+date = 2026-04-13T08:30:00Z
+draft = false
+author = "MarketView"
+description = "연준의 금리 결정 이후 나스닥과 S&P500의 반응을 분석합니다."
+categories = ["US Market"]
+tags = ["미국주식", "나스닥", "S&P500"]
++++
 
 ## 오늘의 시황 요약
 
